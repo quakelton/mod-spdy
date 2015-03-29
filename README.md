@@ -1,7 +1,7 @@
 mod-spdy
 ========
 
-[![Build Status](https://travis-ci.org/eousphoros/mod-spdy.svg?branch=master)](https://travis-ci.org/eousphoros/mod-spdy)
+[![Build Status](https://api.travis-ci.org/quakelton/mod-spdy.svg?branch=apache-2.4.7)](https://travis-ci.org/quakelton/mod-spdy)
 
 OpenSSL 1.0.1(m) and Apache 2.4.7 port for mod-ssl with npn support and mod-spdy. Tested under Ubuntu 14.04 by eousphoros, tested under Ubuntu 14.04 by René Kijewski. Travic-CI testing by Julian K.
 

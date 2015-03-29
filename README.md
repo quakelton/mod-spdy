@@ -1,7 +1,7 @@
 mod-spdy
 ========
 
-[![Build Status](https://travis-ci.org/eousphoros/mod-spdy.svg?branch=master)](https://travis-ci.org/eousphoros/mod-spdy)
+[![Build Status](https://api.travis-ci.org/eousphoros/mod-spdy.svg?branch=apache-2.4.12)](https://travis-ci.org/quakelton/mod-spdy)
 
 OpenSSL 1.0.2(a) and Apache 2.4.12 port for mod-ssl with npn support, TLS_FALLBACK_SCSV and mod-spdy. If you are looking for 2.4.7 (The version that is currently shipping with Ubuntu LTS, use the 2.4.7 branch)
 
@@ -27,12 +27,7 @@ $ echo "SpdyEnabled on" | sudo tee /etc/apache2/mods-available/spdy.conf
 $ sudo a2enmod spdy
 $ sudo /etc/init.d/apache2 restart
 ````
-> If everything is successful you should have mod-spdy/src/out/Release/libmod_spdy.so and /mod-spdy/src/mod_ssl.so which can be installed into your apache2.4 modules directory.
 
-Live Demo
-=========
-
-https://blck.io
 
 Original Source
 ===============
